@@ -1,0 +1,81 @@
+body { 
+    margin:0px;
+    padding:0px;
+    background-color:pink;
+}
+
+/* converting inline to. block level*/
+.leb,a{
+
+   display:block; 
+}
+
+#con{
+  display:flex;
+  justify-content:center;/* use to make horizantally center */
+  align-items:center;/* use to make vertically center */
+  height:100vh;  
+}
+
+form{
+    background-color:chocolate;
+    /* div is occpy 100% wrt go div form is oppy 30% bz parent  */
+    width: 50%;
+    border-radius:10px;
+    padding:25px;
+}
+
+form h2
+{
+  text-align:center;  
+  text-transform:capitalize;
+    color:red;
+}
+
+form Label{
+   
+    font-size:20px;
+}
+form .paisa{
+    width: 100%;
+    boreer-radius: 20px;
+    height: 35px;
+    
+}
+
+form #btn{
+   display:flex;
+   justify-content:space-between; 
+}
+
+button{
+    width:20%;
+    border-radius:5px;
+    background-color: pink;
+    color: blue;
+    border:none;
+    height: 30px;
+     
+ }
+ 
+ #cancle{
+     background-color:red ;/* this will get overide by previous one */
+ }
+form a{
+    text-decoration:none;
+    color:white;
+}
+
+
+
+.fa-user{
+    
+    position:absolute;
+    top:30%;
+    left:3%;
+    
+    
+}
+#user{
+    position: relative;
+}
